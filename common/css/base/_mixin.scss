@@ -19,3 +19,8 @@ $breakpoint: (
   line-height: calc($line / $num);
 }
 
+// letter-spacing
+@mixin ls($num: 0) {
+  letter-spacing: calc($num / 1000) + em;
+}
+
